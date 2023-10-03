@@ -104,7 +104,7 @@ function animation(currentkey){
     activebutton.classList.add("pressed");
 
 
-    //  yaha par timeout funcn jo aaya hai vo 100 milisecond baad jo function hai usko activate kr rhaa hai yaha jaise maine 100 dala hai aap uski jagh kuch aur bhi dal skte ho ;
+    //  yaha  timeout funcn jo aaya hai vo 100 milisecond baad jo function hai usko activate kr rhaa hai yaha jaise maine 100 dala hai aap uski jagh kuch aur bhi dal skte ho ;
     setTimeout(function(){
         activebutton.classList.remove("pressed");
     }, 200);
